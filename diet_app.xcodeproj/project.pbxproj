@@ -20,6 +20,8 @@
 		4BD3FFB62487118200AE20A5 /* DietViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3FFB52487118100AE20A5 /* DietViews.swift */; };
 		4BD3FFB82487118D00AE20A5 /* TrainingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3FFB72487118D00AE20A5 /* TrainingViews.swift */; };
 		4BD3FFBC24871DBC00AE20A5 /* Addons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3FFBB24871DBB00AE20A5 /* Addons.swift */; };
+		4BE229A0248E7E6C0091AACB /* IMG_3251.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4BE2299F248E7E6C0091AACB /* IMG_3251.PNG */; };
+		4BE229A2248E7E770091AACB /* IMG_3250.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4BE229A1248E7E770091AACB /* IMG_3250.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		4BD3FFB52487118100AE20A5 /* DietViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViews.swift; sourceTree = "<group>"; };
 		4BD3FFB72487118D00AE20A5 /* TrainingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViews.swift; sourceTree = "<group>"; };
 		4BD3FFBB24871DBB00AE20A5 /* Addons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addons.swift; sourceTree = "<group>"; };
+		4BE2299F248E7E6C0091AACB /* IMG_3251.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3251.PNG; sourceTree = "<group>"; };
+		4BE229A1248E7E770091AACB /* IMG_3250.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3250.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		4BD3FF972485C16C00AE20A5 /* diet_app */ = {
 			isa = PBXGroup;
 			children = (
+				4BE2299E248E7E510091AACB /* Screens */,
 				4BD3FFBA24871D6900AE20A5 /* Data */,
 				4BD3FFB924871D4300AE20A5 /* Views */,
 				4BD3FF982485C16C00AE20A5 /* AppDelegate.swift */,
@@ -110,6 +115,15 @@
 				4BD3FFB32485EF5C00AE20A5 /* DataTrainings.swift */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		4BE2299E248E7E510091AACB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4BE2299F248E7E6C0091AACB /* IMG_3251.PNG */,
+				4BE229A1248E7E770091AACB /* IMG_3250.PNG */,
+			);
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,8 @@
 			files = (
 				4BD3FFA82485C17100AE20A5 /* LaunchScreen.storyboard in Resources */,
 				4BD3FFA52485C17100AE20A5 /* Preview Assets.xcassets in Resources */,
+				4BE229A2248E7E770091AACB /* IMG_3250.PNG in Resources */,
+				4BE229A0248E7E6C0091AACB /* IMG_3251.PNG in Resources */,
 				4BD3FFA22485C17100AE20A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
